@@ -1,0 +1,151 @@
+html {
+  overflow-y: scroll; /*This prevents the webscroller from repositioning the page, since by default, it moves your pages several pixels to the left.*/
+}
+body {
+	background: url("img/body.jpg");
+	background-size: cover;
+	margin: 0 auto;
+	
+ }
+ 
+img {
+	border: 2px solid black;
+	border-radius: 50px;
+	width: 315px;
+	height: 258px;
+	background-size: cover;
+ }
+
+img#hut {
+	float: right;
+	margin-left: 10px;
+ }
+ 
+img#turtle {
+	float: left;
+	margin-right: 10px;
+ }
+ 
+img#flag {
+	float: right;
+	height: 160px;
+	width: 320px;
+	border-radius: 0;
+	margin-left: 10px;
+ }
+ 
+img#alan {
+	float: right;
+	height: 160px;
+	width: 128px;
+	margin-left: 10px;
+ }
+ img#button {
+	height: 115px;
+	width: 767px;
+	margin: 0 auto;
+	margin-top: -50px;
+	display: block;
+}
+p {
+	font-size: 20px;
+	font-family: "Indie Flower", cursive;
+	font-weight: bold;
+ }
+ 
+ 
+ 
+article {
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 900px;
+	color: #02F2EE;
+ }
+ 
+	article.markup {color: #165AB8;}
+ 
+span.markup {}
+h2 {
+	font-family: "Indie Flower", cursive;
+	font-size: 50px;
+	text-align: center;
+}
+header {
+	background: url("img/cover.jpg");
+	background-size: cover;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+ }
+ 
+	header h1 {
+		position: relative;
+		margin-top: 0;
+		top: 80px;
+		font-family: "Impact";
+		font-size: 60px;
+		text-align: center;
+		color: red;
+	 }
+ 
+	header h2 {
+		color: white;
+		margin-top: 80px
+	 }
+ 
+	header ul {
+		margin: 0 auto;
+		background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0,0,0,0.4));
+		height: 50px;
+	 }
+ 
+	header li {
+		padding: 0 120px;
+		display: inline;
+		font-family: "Impact";
+		font-size: 30px;
+		text-align: center;
+	 }
+ 
+h3 {
+	font-family: "Impact";
+	font-size: 30px;
+	color: #0048A0;
+	margin-bottom: -10px;
+ }
+ div#enroll {
+	margin: 80px auto;
+	}
+ div#enroll h2 {
+	font-size: 100px;
+	color: #0048A0;
+ }
+ div#enroll h3 {
+	text-align: center;
+	font-size: 80px;
+	width: 500px;
+	margin: 0 auto;
+	margin-top: -50px;
+}
+table {margin: 0 auto;}
+ 
+td {
+	width: 600px;
+	vertical-align: top; //This
+ }
+ 
+#lorem {
+	color: #02F2EE;
+	padding-right: 30px;
+ }
+ 
+#fusce {
+	color: #02F2EE;
+	padding-left: 30px;
+ }
+ a:hover {
+	color: blue;
+	}
+	a.special {color: #00FF22;}
+a {color: #8FD8D8; text-decoration: none;}
