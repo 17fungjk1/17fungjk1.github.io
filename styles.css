@@ -11,10 +11,7 @@
 	font-family: 'Open Sans Condensed', sans-serif;
 		text-align: center;
 	}
-	#topbox {background-color:black; padding:30px;
-		text-align: center;
-	}
-	
+	#topbox {background-color:black; padding:30px;}
 	
 	#refresh {color:;}
  body{
@@ -31,7 +28,6 @@
 		text-align: center;
 		font-size: 25px;
 	}
-
 	#box2 {background-color:#6AB2F7; padding:30px}
 	header ul {
 		margin: 0 auto;
@@ -45,6 +41,6 @@
 		text-align: center;
 	}
 	a:link {color: black;}
-
-	#box2 {background-color:#6AB2F7; padding:30px}
+	#dell {float: right;}
+	br.clear {clear: both;} 
 	#doodlejump {vertical-align: center;}
