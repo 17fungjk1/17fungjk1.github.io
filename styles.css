@@ -11,11 +11,13 @@
 	font-family: 'Open Sans Condensed', sans-serif;
 		text-align: center;
 	}
-	#topbox {background-color:black; padding:30px;}
+	#topbox {background-color:black;
+		padding:30px;
+	}
 	
 	#refresh {color:;}
  body{
-   background-color: #3499FA;
+   background-color: #003399;
 }
 	a:hover {color:blue;}
 	#heading2 {color:white;
@@ -28,7 +30,7 @@
 		text-align: center;
 		font-size: 25px;
 	}
-	#box2 {background-color:#6AB2F7; padding:30px}
+	#box2 {background-color:#6AB2F7;}
 	header ul {
 		margin: 0 auto;
 		background-color:#07DDF5;
@@ -40,7 +42,26 @@
 		font-size: 30px;
 		text-align: center;
 	}
-	a:link {color: black;}
-	#dell {float: right;}
-	br.clear {clear: both;} 
-	#doodlejump {vertical-align: center;}
+	#programtable th {color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+		text-align: center;
+	color:black;
+	}
+
+	#research {color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+		text-align: center;
+	font-size: 125%;
+	background color: ;
+	}
+
+	.informationdiv {color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+		text-align: center;
+	font-size: 140%;
+	background-color:#6AB2F7;
+	color:black 
+	;
+	}
+
+	#imagetrace {vertical-align: center;}
